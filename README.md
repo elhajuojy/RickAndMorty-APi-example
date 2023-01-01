@@ -1,4 +1,7 @@
-# api-project
+# The Rick and Morty API
+
+![rick and morty ](https://user-images.githubusercontent.com/86893073/210185024-1776a1e5-5a65-4931-9b03-b761d011c10a.png)
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
