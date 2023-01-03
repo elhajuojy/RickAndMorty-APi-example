@@ -24,6 +24,7 @@ onMounted(async() => {
     data.value=  await respone.data.results;
     console.log(data);
 });
+
 </script>
 <template>
     <main>

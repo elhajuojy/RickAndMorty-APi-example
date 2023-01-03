@@ -15,11 +15,11 @@ var props = defineProps(['item'])
             <div class="status">
                 <div class="circle">
                 </div>
-                <p> Unknow - Human</p>
+                <p> {{props.item.species}} {{props.item.gender}}</p>
             </div>
             <div class="location">
-                <p>Last known location:</p>
-                <p>Earth (Replacement Dimension)</p>
+                <p>Last known location: {{props.item.location.name}}</p>
+                <p>{{props.item.origin.name}}</p>
             </div>
             <!-- 
             <div class="desc">
